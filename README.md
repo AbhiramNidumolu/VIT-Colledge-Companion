@@ -43,3 +43,22 @@
    ```bash
    git clone https://github.com/yourusername/campus-companion.git
    cd campus-companion
+
+## Usage
+
+1. **Sign Up**: Create a new account to access the tools.
+2. **Faculty Ranker**: Rate faculty members and view the current rankings.
+3. **CGPA Calculator**: Enter your grades and credits to calculate CGPA.
+4. **Timetable Builder**: Customize your weekly timetable and save it for reference.
+
+## Contributors
+
+- [Y.Rahul Kumar - Frontend Developer](https://github.com/Rahulkumar-1224)
+- [Avvuru Sridevi - Frontend Developer](https://github.com/username1)
+- [T.Tushar Sriram- Database Administrator](https://github.com/username2)
+- [Ch.Bhuvan- Faculty Ranker Specialist](https://github.com/username3)
+- [Abhiram Nidumolu - CGPA Calculator and Timetable Specialist](https://github.com/AbhiramNidumolu)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
