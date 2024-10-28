@@ -1,0 +1,96 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+ }
+
+ /* Header */
+ .header {
+     background-color: #1f8826;
+     padding: 15px 0;
+     text-align: center;
+     color: white;
+ }
+
+ .header .contact-info {
+     font-size: 12px;
+ }
+
+ .header nav {
+     margin-top: 10px;
+ }
+
+ .header nav a {
+     margin: 0 10px;
+     text-decoration: none;
+     color: white;
+ }
+
+ /* Hero Section */
+ .hero {
+     background-image: url('Home.jpg');
+     background-size: cover;
+     background-position: center;
+     height: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     color:whitesmoke;
+ }
+
+ .logo img {
+    filter: brightness(0) saturate(100%) invert(52%) sepia(88%) saturate(362%) hue-rotate(95deg) brightness(92%) contrast(83%);
+}
+
+ .hero h1 {
+     color: black;
+     font-size: 50px;
+     margin-bottom: 20px;
+ }
+
+ .hero p {
+     font-size: 16px;
+     margin-bottom: 20px;
+     width: 50%;
+ }
+
+ .hero button {
+     background-color: #50d759;
+     color: rgb(255, 255, 255);
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     margin: 10px;
+     font-size: 16px;
+ }
+
+ /* Features Section */
+ .features {
+     display: flex;
+     justify-content: space-around;
+     padding: 50px;
+     background-color: #fdfdfd;
+ }
+
+ .feature {
+     background-color: white;
+     width: 30%;
+     padding: 20px;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
+
+ .feature h3 {
+     margin-bottom: 15px;
+     color: #1f8826;
+ }
+
+ .feature p {
+     font-size: 14px;
+ }
