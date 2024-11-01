@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Timetable Builder</title>
+    <link rel="stylesheet" href="TM.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Timetable Builder</h1>
+        
+        <!-- Form to add a course -->
+        <form id="courseForm">
+            <input type="text" id="courseId" placeholder="Course ID" required>
+            <input type="text" id="courseName" placeholder="Course Name" required>
+            <input type="text" id="day" placeholder="Day (e.g., Monday)" required>
+            <input type="time" id="startTime" required>
+            <input type="time" id="endTime" required>
+            <input type="number" id="credits" placeholder="Credits" min="1" required>
+            <button type="submit">Add Course</button>
+        </form>
+
+        <!-- Display the timetable -->
+        <div id="timetableContainer">
+            <h2>Your Timetable</h2>
+            <table id="timetable">
+                <thead>
+                    <tr>
+                        <th>Course ID</th>
+                        <th>Course Name</th>
+                        <th>Day</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th>Credits</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <!-- Display total credits -->
+        <div id="totalCredits">
+            <h3>Total Credits: <span id="creditCount">0</span></h3>
+        </div>
+
+        <!-- Reset timetable button -->
+        <button id="resetTimetable">Reset Timetable</button>
+    </div>
+
+    <script src="TM.js"></script>
+</body>
+</html>
