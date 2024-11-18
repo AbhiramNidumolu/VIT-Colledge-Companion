@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="Login.css"> <!-- Reusing the same CSS file for consistent styling -->
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="login-container">
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+    <div class="title">Create an Account</div>
+    <div class="subtitle">Join Campus Companion by creating your account</div>
+
+    <div class="input-group">
+        <input type="text" id="fullName" placeholder="Full Name" required>
+    </div>
+    <div class="email">
+        <input type="email" id="email" placeholder="Email" required>
+    </div>
+    <div class="input-group">
+        <input type="password" id="password" placeholder="Password" required>
+    </div>
+    <div class="input-group">
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+    </div>
+
+    <button id="signUpButton">SIGN UP</button>
+
+    <div class="login-link">
+        Already have an account? <a href="login.html">Login</a>
+    </div>
+</div>
+<script type="module" src="firebaseConfig.js"></script>
+<script type="module" src="signup.js"></script>
+</body>
+</html>

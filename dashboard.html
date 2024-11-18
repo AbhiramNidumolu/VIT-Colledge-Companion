@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Dashboard.css">
+</head>
+
+<body>
+
+    <!-- Dashboard container -->
+    <div class="dashboard-container">
+        
+        <!-- Sidebar section -->
+        <div class="sidebar">
+            <h2>Dashboard</h2>
+
+            <!-- User profile section -->
+            <div class="dashboard" id="dashboard">
+                Welcome <span id="dashboard"></span>!
+              </div>
+              <script src="Dashboard.js">
+                // Set the username dynamically
+                document.getElementById("username").textContent = userName; // assuming userName contains the username
+              </script>
+
+            <!-- Navigation links -->
+            <ul class="nav-links">
+                <li><a href="FacultyRanker.html">Faculty Ranker</a></li>
+                <li><a href="TM.html">Timetable Designer</a></li>
+                <li><a href="CgpaCalulator.html">CGPA Calculator</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content area -->
+        <div class="main-content">
+
+            <div class="Logo"><img src="Logo1.png" alt=""></div>
+
+            
+
+            <!-- Timetable Designer Section -->
+            <div id="timetable-designer" class="tool-section">
+                <h3>Timetable Designer</h3>
+                <p>Design your timetable with ease and ensure no clashes between classes.</p>
+                <a href="TM.html"><button onclick="openTimetableDesigner()">Open Timetable Designer</button></a>
+            </div>
+
+            <!-- CGPA Calculator Section -->
+            <div id="cgpa-calculator" class="tool-section">
+                <h3>CGPA Calculator</h3>
+                <p>Calculate your cumulative grade point average to track academic performance.</p>
+                <a href="CgpaCalulator.html"><button onclick="openCgpaCalculator()">Open CGPA Calculator</button></a>
+            </div>
+
+            <!-- Faculty Ranker Section -->
+            <div id="faculty-ranker" class="tool-section">
+                <h3>Faculty Ranker</h3>
+                <p>Rank faculty based on performance metrics to choose the best for your needs.</p>
+                <a href="FacultyRanker.html"><button onclick="openFacultyRanker()">Open Faculty Ranker</button></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="about-us" class="tool-section">
+        <h3>About Us</h3>
+        <p>We aim to provide a platform for students to manage their academic journey more efficiently.</p>
+        <p>For any inquiries or support, please contact us at:</p>
+        <ul>
+            <li>Email: support@vitap.ac.in</li>
+            <li>Phone: +91-123-456-7890</li>
+        </ul>
+    </div>
+
+
+    <!-- JavaScript functions for tool buttons -->
+    <script src="Dashboard.js"></script>
+
+</body>
+
+</html>
