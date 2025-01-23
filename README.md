@@ -56,8 +56,8 @@
 - [Y.Rahul Kumar - Frontend Developer](https://github.com/Rahulkumar-1224)
 - [Avvuru Sridevi - Frontend Developer](https://github.com/username1)
 - [T.Tushar Sriram- Database Administrator](https://github.com/username2)
-- [Ch.Bhuvan- Faculty Ranker Specialist](https://github.com/username3)
-- [Abhiram Nidumolu - CGPA Calculator and Timetable Specialist](https://github.com/AbhiramNidumolu)
+- [Ch.Bhuvan- Backend Developer](https://github.com/username3)
+- [Abhiram Nidumolu - Backend Developer](https://github.com/AbhiramNidumolu)
 
 ## License
 
